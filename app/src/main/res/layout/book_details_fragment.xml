@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.BookListFragment" >
+
+        <ImageView
+            android:id="@+id/iv_book_details_cover"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+
+        <TextView
+            android:id="@+id/tv_book_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/tv_book_details_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/price" />
+
+        <TextView
+            android:id="@+id/tv_book_details_synopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/synopsis" />
+
+    </LinearLayout>
+
+</ScrollView>
